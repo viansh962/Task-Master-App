@@ -56,7 +56,7 @@ const Dashboard = () => {
             <div className="w-full flex flex-col md:flex-row gap-3 border-b pb-6 border-b-slate-300">
               <TaskStatus
                 heading={"Total Tasks"}
-                number={totolTask}
+                number={totalTask}
                 Icon={SiTask}
               />
               <TaskStatus
